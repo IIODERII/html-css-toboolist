@@ -6,7 +6,7 @@
 }
 
 body{
-    font-size: 24px;
+    font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
 }
@@ -15,7 +15,7 @@ body{
 
 header{
     background-color: #ffffff;
-    height: 100px;
+    height: 120px;
 
 }
 
@@ -26,7 +26,45 @@ header{
 
 .title{
     display: inline-block;
-    line-height: 100px; 
+    line-height: 120px; 
+    font-size: 2em;
 }
 
+/* inizio main */
 
+/* button section */
+
+main{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 80vh;
+    width: 70%;
+    margin: 50px auto 0;
+}
+
+button{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px;
+    font-size: 0.5em;
+}
+
+.button-section{
+    border-bottom: 2px solid #f6f8f9;
+    padding-left: 75px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#first-button{
+    background-color: #47adf1;
+    color: #ffffff;
+}
+
+#second-button{
+    background-color: #ffffff;
+    color: #cdd2d6;
+    border: 1px solid #cdd2d6;
+}
+
+/* fine main */
